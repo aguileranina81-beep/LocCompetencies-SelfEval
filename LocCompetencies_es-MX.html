@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades esenciales para la gestión de la localización</title>
+    <meta name="descripción" content=""Evalúa tus fortalezas y áreas de mejora en torno a las Habilidades esenciales para la gestión de la Localización (LMCC) mediante esta herramienta de autoevaluación./>
+    <link rel="alternate" hreflang="en-US" href="index.html" />
+    <link rel="alternate" hreflang="es-MX" href="LocCompetencies_es-MX.html" />
+    <script src="resource-loader.js"></script>
+    
+    <link rel="stylesheet" href="locessential-styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="language-picker">
+                <span>Idioma:</span>
+                <select id="language-select">
+                    <option value="en-US">English</option>
+                    <option value="es-MX">Español</option>
+                </select>
+                <div id="language-error" style="display: none;" role="alert"></div>
+            </div>
+            <h1 id="main-title">Habilidades esenciales para la gestión de la localización</h1>
+            <p id="main-subtitle">Herramienta de autoevaluación</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="introducción">
+            <h2 id="intro-title">Introducción a las habilidades esenciales para la gestión de la localización (LMCC)</h2>
+            <p id="intro-text-1">La <a target="_blank" href="https://l10ncompetencies.wordpress.com">tipología LMCC</a> establece una jerarquía de los conocimientos y aptitudes necesarias para la práctica profesional de la gestión de la localización. Esta tipología está compuesta por siete dimensiones, cada una con sus respectivas competencias y habilidades.</p>
+            <p id="intro-text-2">Con esta herramienta de autoevaluación podrás evaluar tus fortalezas y áreas de mejora en cada una de estas dimensiones, así como conocer el nivel de tus habilidades de gestión de la localización.</p>
+            
+            <div class="dimensions-overview">
+                <h3 id="dimensions-title">Las siete dimensiones</h3>
+                <ul>
+                    <li id="dim-language"><strong>Idioma, Cultura y Comunicación</strong> - Bilingüismo, conciencia cultural y comunicación efectiva</li>    
+                    <li id="dim-research"><strong>Investigación y pensamiento crítico</strong> - Habilidades analíticas, aprendizaje autónomo, retroalimentación y evaluación</li>
+                    <li id="dim-market"><strong>Conocimiento del mercado</strong> - Conocimiento de la industria, estándares, organizaciones y tendencias del mercado</li>                                    
+                    <li id="dim-subject"><strong>Conocimientos especializados</strong> - Seguridad de datos, conocimientos jurídicos y conocimientos específicos de la industria</li>
+                    <li id="dim-gilt"><strong>GILT</strong> - Globalización, internacionalización, localización y traducción</li>
+                    <li id="dim-technology"><strong>Tecnología</strong> - Habilidades tecnológicas generales, plataformas de comunicación, herramientas de gestión de proyectos, herramientas TAO, autoedición (DTP), software, videojuegos y sitios web, traducción automática y más</li>
+                    <li id="dim-management"><strong>Gestión</strong> - Gestión de partes interesadas, cuentas, proyectos, calidad, terminología, producción/operaciones y programas</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Empty container for evaluation section - Will be populated from JSON -->
+        <section id="evaluation" class="content-container hidden"></section>
+
+        <!-- Empty container for results section - Will be populated from JSON -->
+        <section id="results" class="content-container hidden"></section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p id="footer-text">Habilidades esenciales para la gestión de la localización (LMCC) - Herramienta de autoevaluación</p>
+            <!-- <p id="footer-text">Mexican Spanish localization by Your Name Here</p> -->
+             <p id="footer-text">Localización al español de México por Nina</p>
+            <p id="footer-copyright">© 2026 LocEssentials (Versión en español)</p>
+        </div>
+    </footer>
+</body>
+</html>
