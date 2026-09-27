@@ -3,18 +3,19 @@
 /* ===========================
    CSS VARIABLES (Design Tokens)
    =========================== */
-:root {
-   /* Brand Colors */
-    --primary-color: #3F4E63;
-    --secondary-color: #65748A;
-    --accent-color: #9A8FB5;
+:root
+{
+    /* Brand Colors */
+    --primary-color: #454866;
+    --secondary-color: #66698A;
+    --accent-color: #A9A2C1;
     --light-color: #F6F5F8;
-    --dark-color: #303844;
-    --success-color: #5F8A6A;
-    --warning-color: #B7791F;
-    --pink-accent: #C9A8B8;
-    --pink-highlight: #E8D9DF;
-    --neon-green: #5F8A6A;
+    --dark-color: #30313D;
+    --success-color: #3dd598;
+    --warning-color: #FF0000;
+    --pink-accent: #ef91c6;
+    --pink-highlight: #F8C2E1;
+    --neon-green: #3dd598;
     
     /* Typography */
     --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
